@@ -1,9 +1,0 @@
-a: double = 2;
-b: double = 3;
-sum: double = a + b;
-
-mul: function = (x,y){x*y};
-prod: double = mul(a,b);
-
-flag: bool = true;
-msg: str = "hola";

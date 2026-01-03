@@ -1,0 +1,8 @@
+x : double = 10 + 5;
+y : double = x * 2;
+
+sum : function = (a,b){ a + b };
+z : double = sum(x,y);
+
+msg : str = "hola";
+flag : bool = true;

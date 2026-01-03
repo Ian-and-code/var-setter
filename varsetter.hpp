@@ -5,7 +5,7 @@
 #include <vector>
 #include <functional>
 
-struct Env;
+struct Env; 
 
 using Function = std::function<double(const std::vector<double>&)>;
 
