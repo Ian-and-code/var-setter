@@ -1,0 +1,6 @@
+$lc = g++
+$wc = x86_64-w64-mingw32-g++
+$fs = varsetter.cc
+
+-a $lc -fPIC -shared $fs -o varsetter.so
+-b $wc -shared $fs -o varsetter.dll

@@ -22,6 +22,7 @@ std::string btos(bool value){
 }
 int main() {
     Env env;
+
     interpret_text(&env, ReadTestFile(1));
     std::cout << "x = " << getDouble(&env, "x") << "\n";
     std::cout << "y = " << getDouble(&env, "y") << "\n";
